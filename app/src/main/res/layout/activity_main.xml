@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imggojek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/untitled"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="70dp"/>
+    <ImageView
+        android:id="@+id/imggomart"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/menu_gomart"
+        app:layout_constraintTop_toBottomOf="@id/imggojek"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/imggoride"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/menu_goride"
+        app:layout_constraintTop_toBottomOf="@id/imggojek"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/imggofood"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/menu_gofood"
+        app:layout_constraintTop_toBottomOf="@id/imggomart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/imggobox"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/menu_gosend"
+        app:layout_constraintTop_toBottomOf="@id/imggoride"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"/>
+
+</android.support.constraint.ConstraintLayout>
